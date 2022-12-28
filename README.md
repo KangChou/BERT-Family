@@ -1,10 +1,40 @@
 # BERT-Family
 BERT-家族，NLP自然语言处理框架
+- bert tensorflow版本：https://github.com/google-research/bert
+- bert pytorch版本： https://github.com/codertimo/BERT-pytorch
+- 中文BERT-wwm系列模型：https://github.com/ymcui/Chinese-BERT-wwm
 
+bert相关论文汇总：
+- https://github.com/tomohideshibata/BERT-related-papers
+- https://github.com/Jiakui/awesome-bert
+
+中文NLP资源库:
+- https://github.com/fighting41love/funNLP
+- 
 ![image](https://user-images.githubusercontent.com/36963108/209763122-bc1c553d-9044-4ea5-9895-4ab9c83fe821.png)
 
 
+
 PPT介绍： http://speech.ee.ntu.edu.tw/~tlkagk/courses/DLHLP20/BERT%20train%20(v8).pdf
+
+bert系列算法封装调用：
+- https://github.com/bojone/bert4keras
+- https://github.com/CyberZHG/keras-bert
+
+bert任务：
+- https://github.com/macanv/BERT-BiLSTM-CRF-NER
+- https://github.com/terrifyzhao/bert-utils
+- https://github.com/649453932/Bert-Chinese-Text-Classification-Pytorch
+- https://github.com/WenRichard/KBQA-BERT
+- https://github.com/kyzhouhzau/BERT-NER
+- https://github.com/MaartenGr/KeyBERT
+- https://github.com/yao8839836/kg-bert
+- https://github.com/kamalkraj/BERT-NER
+- https://github.com/lonePatient/BERT-NER-Pytorch
+- https://github.com/Morizeyao/GPT2-Chinese
+- https://github.com/ProHiryu/bert-chinese-ner
+- https://github.com/Y1ran/NLP-BERT--ChineseVersion
+- https://github.com/xmxoxo/BERT-train2deploy
 
 
 # 预训练的bert
@@ -12,6 +42,8 @@ PPT介绍： http://speech.ee.ntu.edu.tw/~tlkagk/courses/DLHLP20/BERT%20train%20
 ![image](https://user-images.githubusercontent.com/36963108/209763536-6fd4b614-5500-4510-9961-69528e16446a.png)
 - https://towardsdatascience.com/a-review-of-bert-based-models-4ffdc0f15d58
 - https://www.jiqizhixin.com/articles/2019-08-26-16
+- https://github.com/utterworks/fast-bert
+- https://codeantenna.com/a/8g5toAhu4v
 - https://www.jianshu.com/p/fe94c54a4c05
 - https://www.jianshu.com/p/7677e1a5813c
 - https://www.jianshu.com/p/99ec2bf2ab6c
@@ -51,7 +83,8 @@ PPT介绍： http://speech.ee.ntu.edu.tw/~tlkagk/courses/DLHLP20/BERT%20train%20
 
 ## bert家族知识蒸馏
 
-https://cloud.tencent.com/developer/article/1796814
+- https://cloud.tencent.com/developer/article/1796814
+- https://github.com/MuQiuJun-AI/bert4pytorch
 
 ## GPT庞大的家族系谱
 
@@ -83,62 +116,6 @@ https://www.jianshu.com/p/7327fa83dca8
 *   **Chinese-GEN项目下的模型**: [https://github.com/bojone/chinese-gen](https://github.com/bojone/chinese-gen)
 *   **T5.1.1**: [https://github.com/google-research/text-to-text-transfer-transformer/blob/master/released_checkpoints.md#t511](https://github.com/google-research/text-to-text-transfer-transformer/blob/master/released_checkpoints.md#t511)
 *   **Multilingual T5**: [https://github.com/google-research/multilingual-t5/](https://github.com/google-research/multilingual-t5/)
+*   https://github.com/fighting41love/funNLP
 
-
-## 其他参考
-[1] NLP将迎来黄金十年 https://www.msra.cn/zh-cn/news/executivebylines/tech-bylines-nlp
-
-[2] a review of the recent history of nlp
-
-[3] AIS：ACL2019进展报告
-
-[4] ACL 主席周明：一起拥抱 ACL 和 NLP 的光明未来
-
-[5] 自然语言处理中的语言模型预训练方法 https://www.jiqizhixin.com/articles/2018-10-22-3
-
-[6] ELMO:Deep contextualized word representations
-
-[7] ULMFiT：Universal Language Model Fine-tuning)
-
-[8] SiATL：An Embarrassingly Simple Approach for Transfer Learning from Pretrained Language Models
-
-[9] BERT时代与后时代的NLP https://zhuanlan.zhihu.com/p/66676144
-
-[10] GPT:Improving Language Understanding by Generative Pre-Training
-
-[11] GPT2.0:Language Models are Unsupervised Multitask Learners
-
-[12] Transformer:Attention is all you need
-
-[13] BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
-
-[14] Bert时代的创新（应用篇）：Bert在NLP各领域的应用进展 https://zhuanlan.zhihu.com/p/68446772
-
-[15] MASS: Masked Sequence to Sequence Pre-training for Language Generation
-
-[16] UNILM：Unified Language Model Pre-training for Natural Language Understanding and Generation
-
-[17] ERNIE: Enhanced Representation through Knowledge Integration
-
-[18] ERNIE: Enhanced Language Representation with Information Entities
-
-[19] nndl：神经网络与深度学习
-
-[20] MT-DNN：Multi-Task Deep Neural Net for NLU
-
-[21] ERNIE 2.0: A CONTINUAL PRE-TRAINING FRAMEWORK FOR LANGUAGE UNDERSTANDING
-
-[22] 陈凯：https://www.zhihu.com/question/337827682/answer/768908184
-
-[23] SpanBert：对 Bert 预训练的一次深度探索
-
-[24] RoBERTa: A Robustly Optimized BERT Pretraining Approach
-
-[25] ab他们创造了横扫NLP的XLNet：专访CMU博士杨植麟
-
-[26] XLnet: Generalized Autoregressive Pretraining for Language Understanding
-
-[27] Neural autoregressive distribution estimation
-
-[28] Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context
 
