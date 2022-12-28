@@ -85,7 +85,7 @@ https://www.jianshu.com/p/7327fa83dca8
 *   **Multilingual T5**: [https://github.com/google-research/multilingual-t5/](https://github.com/google-research/multilingual-t5/)
 
 
-
+## 其他参考
 [1] NLP将迎来黄金十年 https://www.msra.cn/zh-cn/news/executivebylines/tech-bylines-nlp
 
 [2] a review of the recent history of nlp
