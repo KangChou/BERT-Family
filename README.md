@@ -118,4 +118,30 @@ https://www.jianshu.com/p/7327fa83dca8
 *   **Multilingual T5**: [https://github.com/google-research/multilingual-t5/](https://github.com/google-research/multilingual-t5/)
 *   https://github.com/fighting41love/funNLP
 
+## 其他参考
+*   **[Transformer:Attention集大成者](https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzI4ODg3NDY2NQ%3D%3D%26mid%3D2247483679%26idx%3D1%26sn%3D26ec25fcb954332f2c21ca89c324278e%26chksm%3Dec3688d9db4101cf99ed29500e1b3f50225159a7b1e3d318d4409caad1955fe354f7f502363f%26token%3D1357491502%26lang%3Dzh_CN%23rd)**
+*   **[GPT-1 & 2: 预训练+微调带来的奇迹](https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzI4ODg3NDY2NQ%3D%3D%26mid%3D2247483710%26idx%3D1%26sn%3D7f9ccf321297e9e848be59a1b7aaacc5%26chksm%3Dec3688f8db4101ee72649c98bebe249f0e0b1e78dde6c7e09d35570c277c388bc6a0f28f038b%26token%3D1357491502%26lang%3Dzh_CN%23rd)**
+*   **[Bert: 双向预训练+微调](https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzI4ODg3NDY2NQ%3D%3D%26mid%3D2247483736%26idx%3D1%26sn%3Dc5116efdd7f935baccde0cd76bf05115%26chksm%3Dec36889edb410188ee2a269da9f2c14105a8f9afeab2d40ac01179a98e807f4760701cd27406%26token%3D1357491502%26lang%3Dzh_CN%23rd)**
+*   Bert与模型压缩
+
+*   **[Bert与模型蒸馏：PKD和DistillBert](https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzI4ODg3NDY2NQ%3D%3D%26mid%3D2247483796%26idx%3D1%26sn%3Dc4acb3e8cf0cdc56d55943ef875e2f8c%26chksm%3Dec368852db410144f05119f0bef7d28b4e3de29d5b22c083c976d7ea93afd62d5fe5c01069a0%26token%3D1357491502%26lang%3Dzh_CN%23rd)**
+*   **[ALBert: 轻量级Bert](https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzI4ODg3NDY2NQ%3D%3D%26mid%3D2247483848%26idx%3D1%26sn%3D56c5a5bf0f61b0d0db226aa6e5fa210d%26chksm%3Dec36880edb4101189215fa8b9d68e9adf8d5659d16d5b1aca2354f19fdd0edb6eb07097319db%26token%3D1357491502%26lang%3Dzh_CN%23rd)**
+*   **[TinyBert: 模型蒸馏的全方位应用](https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzI4ODg3NDY2NQ%3D%3D%26mid%3D2247483867%26idx%3D1%26sn%3Dc83cb7109eea8d128d0e644baf8b2f30%26chksm%3Dec36881ddb41010b2df0afe1e866dda28f7a243f42104bce2499b29a206e0931dff0444274bf%26token%3D1357491502%26lang%3Dzh_CN%23rd)**
+*   **[MobileBert: Pixel4上只需40ms](https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzI4ODg3NDY2NQ%3D%3D%26mid%3D2247483931%26idx%3D1%26sn%3De3cba339cc6003fe549155ce9af37a87%26chksm%3Dec368bdddb4102cb1f9074e6fb024f1b5771e6c86184c2d1f406650f420f485e4e1fd998e304%26token%3D1357491502%26lang%3Dzh_CN%23rd)**
+
+
+*   **[Transformer + AutoML: 进化的Transformer](https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzI4ODg3NDY2NQ%3D%3D%26mid%3D2247484211%26idx%3D2%26sn%3Dcca62a5662dea8b3a24ccb2a75fa41f3%26chksm%3Dec368af5db4103e34b044ab5ad1e8a61b8e8517d4b0fd514d94126f6e4dd9e0a25faaaa522a5%26token%3D806322780%26lang%3Dzh_CN%23rd)**
+*   Bert变种
+
+*   **[Roberta: Bert调优](https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzI4ODg3NDY2NQ%3D%3D%26mid%3D2247483768%26idx%3D1%26sn%3Dc922c50c4154a295d2e18ebb468336be%26chksm%3Dec3688bedb4101a8fb5cc8fa8f86c01a8cd5e841fc00b850a435b412c323eee08f144b745b79%26token%3D1357491502%26lang%3Dzh_CN%23rd)**
+*   **[Electra: 判别还是生成，这是一个选择](https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzI4ODg3NDY2NQ%3D%3D%26mid%3D2247484119%26idx%3D1%26sn%3D8391824e48fe3721204a0420aaa6f848%26chksm%3Dec368b11db4102078ec82f422c047e664f0fb9ce52ec5a78036b87ea7d491fa773e32943bc5d%26token%3D1355058864%26lang%3Dzh_CN%23rd)**
+*   **[Bart: Seq2Seq预训练模型](https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzI4ODg3NDY2NQ%3D%3D%26mid%3D2247484142%26idx%3D2%26sn%3De25a63b46cd4e54e8cace83cdad931fb%26chksm%3Dec368b28db41023eaa94252959057f6ea823ed0a25af46893c003ebb93540d337feaa0a0c9ce%26token%3D1106608718%26lang%3Dzh_CN%23rd)**
+*   **[Transformer优化之自适应宽度注意力](https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzI4ODg3NDY2NQ%3D%3D%26mid%3D2247483910%26idx%3D1%26sn%3D850c743b140677e35557d148770b551c%26chksm%3Dec368bc0db4102d67774ac90605cdb1ea68fbe26aca675f4854748b40b87b401b5179a0f459f%26token%3D1357491502%26lang%3Dzh_CN%23rd)**
+*   **[Transformer优化之稀疏注意力](https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzI4ODg3NDY2NQ%3D%3D%26mid%3D2247484022%26idx%3D1%26sn%3Df5367afb33952896a38a513320fdf17f%26chksm%3Dec368bb0db4102a664d6a867b905656a83d49ffaf163ccfffa77a09a8c48d711270a939d45aa%26token%3D176708162%26lang%3Dzh_CN%23rd)**
+*   **[Reformer: 局部敏感哈希和可逆残差带来的高效](https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzI4ODg3NDY2NQ%3D%3D%26mid%3D2247483911%26idx%3D1%26sn%3D8d98a214d455a55650bb589830b08dae%26chksm%3Dec368bc1db4102d7d54216e917ec22f83b47df55153ef4c3f83aaafd68a0dd60caf836fb712a%26token%3D1357491502%26lang%3Dzh_CN%23rd)**
+*   **[Longformer: 局部attentoin和全局attention的混搭](https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzI4ODg3NDY2NQ%3D%3D%26mid%3D2247483958%26idx%3D1%26sn%3Dde7b14bf4d2c56988598363dc12737fe%26chksm%3Dec368bf0db4102e6fd289bd8aa18df2748433a19c272e72946db64cacdad4d0bfb5d08abf90f%26token%3D1143207534%26lang%3Dzh_CN%23rd)**
+*   **[Linformer: 线性复杂度的Attention](https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzI4ODg3NDY2NQ%3D%3D%26mid%3D2247483972%26idx%3D1%26sn%3Dd9ae4489bd0d0a43e199aa96684906de%26chksm%3Dec368b82db41029438c8807e98384217f016540394f5e890423e9d0080caa0919a6ff91102ba%26token%3D1618065730%26lang%3Dzh_CN%23rd)**
+*   **[XLM: 跨语言的Bert](https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzI4ODg3NDY2NQ%3D%3D%26mid%3D2247484046%26idx%3D1%26sn%3D73634b99c940f96a4c9996c865f0173d%26chksm%3Dec368b48db41025eb1cc4a83aa54fa193e40428b70e47a1e5efa050de5d183387e807c5e73b7%26token%3D176708162%26lang%3Dzh_CN%23rd)**
+
+
 
