@@ -47,6 +47,12 @@ pip install tk  -i https://pypi.doubanio.com/simple/
 
 教程参考：[https://huaweicloud.csdn.net/63803da2dacf62](https://huaweicloud.csdn.net/63803da2dacf622b8df86bb5.html?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Eactivity-1-123298406-blog-121129928.pc_relevant_vip_default&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Eactivity-1-123298406-blog-121129928.pc_relevant_vip_default&utm_relevant_index=1)
 
+如果不想安装也可以直接使用官方提供的工具：
+```
+docker pull heartexlabs/label-studio:latest
+docker run -it -p 8080:8080 -v $(pwd)/mydata:/label-studio/data heartexlabs/label-studio:latest
+```
+
 ubuntu20安装：
 ```
 python3.8的环境
