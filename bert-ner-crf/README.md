@@ -88,5 +88,21 @@ pip install attrs
 ![image](https://user-images.githubusercontent.com/36963108/209920034-cb234f3d-3e91-4f54-b797-578ef58bb328.png)
 点击实体名称，再通过鼠标从待标注的文本选择出正确的实体，如图：选选择实体类型，在鼠标选择文本中的实体
 ![image](https://user-images.githubusercontent.com/36963108/209920197-48ecb3ce-1007-495a-b4a9-98368fb8be7e.png)
+标注完成后，一定要点击Submit提交已标注的数据，要不然，一天白干，如何还有数据将继续标注：
+![image](https://user-images.githubusercontent.com/36963108/209920414-57b69672-01d5-44c6-9485-a6c6dd74b3ed.png)
+所有数据标完之后，就出现这样的提示：
+![image](https://user-images.githubusercontent.com/36963108/209920586-86080730-da7c-4e59-bbd4-343bfa94869d.png)
+标注完成后，点击右上角 Export 可以导出已标注的数据,这里选择csv:
+![image](https://user-images.githubusercontent.com/36963108/209921014-1fccaaea-b62c-49f3-9e7f-38f04eefac0e.png)
+点击下面的Export蓝色按钮，就能导出已标注的数据啦:
+实体excel打开可能是中文乱码，使用notepad++打开即可
+```
+id,text,created_at,lead_time,annotator,annotation_id,label,updated_at
+14,上海证监局局长严伯进将调任证监会发行部主任.,2022-12-29T07:50:18.621831Z,176.724,1,1,[{"start": 0, "end": 10, "text": "上海证监局局长严伯进", "labels": ["PER"]}, {"start": 13, "end": 16, "text": "证监会", "labels": ["ORG"]}],2022-12-29T07:50:18.621855Z
+15,严伯进,男,1965年生,江苏人.,2022-12-29T07:51:29.380979Z,70.561,1,2,[{"start": 13, "end": 15, "text": "江苏", "labels": ["PER"]}, {"start": 0, "end": 3, "text": "严伯进", "labels": ["PER"]}],2022-12-29T07:51:29.381015Z
+16,金庸是武侠小说鼻祖.,2022-12-29T07:51:40.786361Z,11.189,1,3,[{"start": 0, "end": 2, "text": "金庸", "labels": ["PER"]}],2022-12-29T07:51:40.786391Z
+17,钱学森毕业于上海交通大学.,2022-12-29T07:51:57.809165Z,16.794,1,4,[{"start": 0, "end": 3, "text": "钱学森", "labels": ["PER"]}, {"start": 6, "end": 12, "text": "上海交通大学", "labels": ["ORG"]}, {"start": 6, "end": 12, "text": "上海交通大学", "labels": ["SCH"]}],2022-12-29T07:51:57.809189Z
+
+```
 
 
