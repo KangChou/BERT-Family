@@ -110,5 +110,71 @@ id,text,created_at,lead_time,annotator,annotation_id,label,updated_at
 17,钱学森毕业于上海交通大学.,2022-12-29T07:51:57.809165Z,16.794,1,4,[{"start": 0, "end": 3, "text": "钱学森", "labels": ["PER"]}, {"start": 6, "end": 12, "text": "上海交通大学", "labels": ["ORG"]}, {"start": 6, "end": 12, "text": "上海交通大学", "labels": ["SCH"]}],2022-12-29T07:51:57.809189Z
 
 ```
+转换代码：
+```python
+# -*- coding: utf-8 -*-
 
+import csv
+import json
+import pandas as pd
+
+def gen_train_data(file_path, save_path):
+    """
+    file_path: 通过Label Studio导出的csv文件
+    save_path: 保存的路径
+    """
+
+    file = open("project-3-at-2022-12-29-08-38-6bf9b31b.json", 'r', encoding='utf-8')
+    papers = []
+    for line in file.readlines():
+        dic = json.loads(line)
+        papers.append(dic)
+
+    print(papers[0])
+
+
+    data = pd.read_csv(file_path,error_bad_lines= False,encoding='utf-8')
+
+    print("data.iterrows()-------->",data.iterrows())
+
+
+    for idx, item in data.iterrows():
+        text = item['text']
+        if pd.isna(text):
+            text = ''
+        text_list = list(text)
+        label_list = []
+        labels = item['label']
+        label_list = ['O' for i in range(len(text_list))]
+        # print(labels,pd.isna(labels))
+        if pd.isna(labels):
+            pass
+        else:
+            labels = json.loads(labels)
+            for label_item in labels:
+                start = label_item['start']
+                end = label_item['end']
+                label = label_item['labels'][0]
+                label_list[start] = f'B-{label}'
+                label_list[start+1:end-1] = [f'M-{label}' for i in range(end-start-2)]
+                label_list[end - 1] = f'E-{label}'
+        assert len(label_list) == len(text_list)
+        with open(save_path, 'a',encoding="utf-8") as f:
+            for idx_, line in enumerate(text_list):
+                if text_list[idx_] == '\t' or text_list[idx_] == ' ':
+                    text_list[idx_] = '，'
+                line = text_list[idx_] + ' ' + label_list[idx_] + '\n'
+                f.write(line)
+            f.write('\n')
+
+file_path = "./project-3-at-2022-12-29-07-57-34ca8198.csv"
+save_path = "./out.txt"
+gen_train_data(file_path, save_path)
+
+```
+
+
+# 参考
+
+https://blog.csdn.net/siasDX/article/details/124773198
 
